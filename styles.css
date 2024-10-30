@@ -43,7 +43,7 @@ body{
 .searchbar input{
     flex-grow: 3;
     border-radius: 30px;
-    height: 75%;
+    height: 100%;
     border: none;
     background-color: rgb(225, 224, 224);
 }
@@ -153,7 +153,12 @@ h2{
     padding: 15px;
     position: relative;
     
-    
+}
+
+.projects H2{
+    position: absolute;
+    top: -50px;
+    left: 15px;
 }
 .cards{
     background-color: white;
@@ -181,9 +186,17 @@ h2{
     background-color: white;
     grid-column: 2/3;
     box-shadow: 2px 2px 4px rgb(171, 171, 171);
-    padding: 15px;
+    padding: 25px;
     font-size: smaller;
     color: rgb(92, 92, 92);
+    position: relative;
+    border-radius: 10px;
+}
+.announcements H2, .trending H2{
+    position: absolute;
+    top: -50px;
+    color: black;
+    left: 0px;
 }
 H4{
     color: black;
